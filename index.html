@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chlarenz | Portfolio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #020617;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #38bdf8;
+    }
+
+    nav a {
+      margin-left: 20px;
+      color: #e5e7eb;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #38bdf8;
+    }
+
+    section {
+      padding: 80px 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .hero {
+        
+      text-align: center;
+    }
+    .profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #38bdf8;
+}
+
+    
+    
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero span {
+      color: #38bdf8;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      margin-top: 40px;
+    }
+
+    button {
+      background: #38bdf8;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    button:hover {
+      background: #0ea5e9;
+    }
+  </style>
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #38bdf8;
+  }
+
+</style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Enzo</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+     <div class="card">
+      <img src="imagesme.jpg" alt="My Photo" class="profile-pic">
+      </div>
+  
+
+  <h2>Hi, I'm <span>Chlarenz</span> 👋</h2>
+  <p>A beginner web developer building cool things on the web.</p>
+  <button onclick="alert('Thanks for checking my portfolio!')">Say Hi</button>
+</section>
+
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am a student who enjoys exploring and is eager to learn more about coding. I am always open to learning new skills and improving my knowledge in programming.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Project One</h3>
+        <p>Simple website using HTML and CSS.</p>
+      </div>
+      <div class="card">
+        <h3>Project Two</h3>
+        <p>JavaScript mini app.</p>
+      </div>
+      <div class="card">
+        <h3>Project Three</h3>
+        <p>Future awesome project 🚀</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <strong>chlarenz.reyes@lspu.edu.ph</strong></p>
+  </section>
+
+  <footer>
+    <p>© 2026 Chlarenz. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
